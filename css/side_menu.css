@@ -1,0 +1,119 @@
+.sidebarmenu ul{
+padding: 0;
+margin-top:0px;
+list-style-type: none;
+font:  16px Roboto light;
+ /* Main Menu Item widths */
+border-bottom: 0px solid #ccc;
+ }
+ 
+.sidebarmenu ul li{
+position:relative;
+}
+
+/* Top level menu links style */
+.sidebarmenu ul li a{
+display: block;
+overflow: auto; /*force hasLayout in IE7 */
+color: #636363;
+text-decoration: none;
+padding:10px;
+padding-left:20px;
+}
+
+.sidebarmenu ul li a:link, .sidebarmenu ul li a:visited{
+background-color: #f3f3f3;
+color: #636363;/*background of tabs (default state)*/
+}
+.sidebarmenu ul li a:active{
+   background-color:#e7e7e7;
+   }
+.sidebarmenu ul li a:visited{
+color: #636363;
+}
+
+.sidebarmenu ul li a:hover{
+background-color:#e7e7e7;
+color: #636363;
+}
+
+/*Sub level menu items */
+.sidebarmenu ul li ul{
+position: absolute;
+width: 170px; /*Sub Menu Items width */
+top: 0;
+visibility: hidden;
+}
+
+.sidebarmenu a.subfolderstyle{
+background: url(right.gif) no-repeat 97% 50%;
+}
+#here{
+     background-color: #d4d4d4;
+     color:black;
+     font:bold;
+}
+.asidebarmenu ul{
+padding: 0;
+margin-top:0px;
+list-style-type: none;
+font:  16px Bold;
+ /* Main Menu Item widths */
+border-bottom: 0px solid #ccc;
+}
+ 
+.asidebarmenu ul li{
+position:relative;
+}
+
+/* Top level menu links style */
+.asidebarmenu ul li a{
+display: block;
+overflow: auto; /*force hasLayout in IE7 */
+color: black;
+text-decoration: none;
+padding:10px;
+padding-left:20px;
+}
+
+.asidebarmenu ul li a:link, .asidebarmenu ul li a:visited{
+background-color: #f3f3f3;
+color: #636363;/*background of tabs (default state)*/
+}
+.asidebarmenu ul li a:active{
+   background-color:#e7e7e7;
+   }
+.asidebarmenu ul li a:visited{
+color: #636363;
+}
+
+.asidebarmenu ul li a:hover{
+background-color:black;
+color:white;
+}
+
+/*Sub level menu items */
+.asidebarmenu ul li ul{
+position: absolute;
+width: 170px; /*Sub Menu Items width */
+top: 0;
+visibility: hidden;
+}
+
+.asidebarmenu a.subfolderstyle{
+background: url(right.gif) no-repeat 97% 50%;
+}
+
+#h{
+background-color:#aaaaaa;
+color:white;
+font:20px bold sans-serif;
+padding:8px;
+
+}#btn{
+display: block;
+overflow: auto; /*force hasLayout in IE7 */
+color: #636363;
+text-decoration: none;
+padding:10px;
+padding-left:20px;}

@@ -1,0 +1,27 @@
+ *{
+margin:0px;
+padding:0px;
+}
+header,footer,aside,nav,section,hgroup{
+     display:block;
+}
+ #head
+ {
+  background-color:#252525;
+  color:white;
+  padding:8px;
+ }
+ #lu{
+   background-color:#aaaaaa;
+  color:white;
+  padding:8px;
+  }
+ #ni{
+ padding:10px;}
+ #ni tr th{
+  padding:10px;
+  font:20px;
+  }
+  #ni tr td{
+  padding:10px;
+  }

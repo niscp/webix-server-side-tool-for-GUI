@@ -1,0 +1,2 @@
+
+echo nishank |  --stdin  passwd nishank

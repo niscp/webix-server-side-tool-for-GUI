@@ -1,0 +1,1 @@
+sudo cat /var/log/anaconda.log > b.txt

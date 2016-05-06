@@ -1,0 +1,1 @@
+sudo /bin/ps -A  > a.txt

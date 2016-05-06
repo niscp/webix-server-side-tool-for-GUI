@@ -1,0 +1,96 @@
+pcmcia :off :off :on :on :on :on
+cups :off :off :on :on :on :on
+crond :off :off :on :on :on :on
+smartd :off :off :on :on :on :on
+snmptrapd :off :off :off :off :off :off
+nscd :off :off :off :off :off :off
+webmin :off :off :on :on :on :on
+spamassassin :off :off :off :off :off :off
+rpcsvcgssd :off :off :off :on :on :on
+portmap :off :off :off :on :on :on
+readahead :off :off :off :off :off :on
+rpcgssd :off :off :off :on :on :on
+dc_server :off :off :off :off :off :off
+readahead_early :off :off :off :off :off :on
+lm_sensors :off :off :on :on :on :on
+ntpd :off :off :off :off :off :off
+mailman :off :off :off :off :off :off
+atd :off :off :off :on :on :on
+squid :off :off :off :off :off :off
+saslauthd :off :off :off :off :off :off
+nfslock :off :off :off :on :on :on
+rwhod :off :off :off :off :off :off
+syslog :off :off :on :on :on :on
+mdmpd :off :off :off :off :off :off
+ypxfrd :off :off :off :off :off :off
+httpd :off :off :off :off :off :off
+xfs :off :off :on :on :on :on
+anacron :off :off :on :on :on :on
+xinetd :off :off :on :on :on :on
+haldaemon :off :off :off :on :on :on
+dovecot :off :off :off :off :off :off
+messagebus :off :off :off :on :on :on
+nfs :off :off :off :off :off :off
+tux :off :off :off :off :off :off
+iptables :off :off :off :off :off :off
+netplugd :off :off :off :off :off :off
+cups-config-daemon :off :off :off :on :on :on
+apmd :off :off :on :on :on :on
+kudzu :off :off :off :on :on :on
+irda :off :off :off :off :off :off
+ypserv :off :off :off :off :off :off
+dhcrelay :off :off :off :off :off :off
+netfs :off :off :off :on :on :on
+arptables_jf :off :off :on :on :on :on
+named :off :off :off :off :off :off
+acpid :off :off :off :on :on :on
+psacct :off :off :off :off :off :off
+isdn :off :off :on :on :on :on
+vncserver :off :off :off :off :off :off
+mdmonitor :off :off :on :on :on :on
+smb :off :off :off :off :off :off
+winbind :off :off :off :off :off :off
+gpm :off :off :on :on :on :on
+cpuspeed :off :on :on :on :on :on
+yppasswdd :off :off :off :off :off :off
+snmpd :off :off :off :off :off :off
+ypbind :off :off :off :off :off :off
+irqbalance :off :off :off :on :on :on
+dc_client :off :off :off :off :off :off
+sendmail :off :off :on :on :on :on
+sshd :off :off :on :on :on :on
+vsftpd :off :off :on :on :on :on
+dhcpd :off :off :off :off :off :off
+diskdump :off :off :off :off :off :off
+rawdevices :off :off :off :on :on :on
+NetworkManager :off :off :off :off :off :off
+network :off :off :on :on :on :on
+microcode_ctl :off :off :off :off :off :off
+rpcidmapd :off :off :off :on :on :on
+netdump :off :off :off :off :off :off
+autofs :off :off :off :on :on :on
+cyrus-imapd :off :off :off :off :off :off
+bluetooth :off :off :off :off :off :off
+rhnsd :off :off :off :on :on :on
+lisa :off :off :off :off :off :off
+xinetd based services:    
+time-udp: off     
+daytime: off     
+telnet: on     
+klogin: off     
+tftp: off     
+kshell: off     
+time: off     
+echo: off     
+chargen: off     
+eklogin: off     
+webix: on     
+ktalk: off     
+finger: off     
+krb-telnet: off     
+cups-lpd: off     
+gssftp: off     
+daytime-udp: off     
+rsync: off     
+echo-udp: off     
+chargen-udp: off     

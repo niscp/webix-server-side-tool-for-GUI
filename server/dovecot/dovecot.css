@@ -1,0 +1,14 @@
+#n{
+text-align:center;
+font:40px roboto light;}
+#k{
+width:750px;
+margin-top:20px;
+margin-left:200px;
+}
+#k tr td
+{
+ padding:20px;
+ font:20px roboto light;
+ color:blue;
+ }

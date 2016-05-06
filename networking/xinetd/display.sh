@@ -1,0 +1,1 @@
+sudo chkconfig --list | awk '{print $1, $2}' | tail -21 > a.txt

@@ -1,0 +1,282 @@
+* modules to insert vgastate vga16fb
+* loaded vgastate from /modules/modules.cgz
+* loaded vga16fb from /modules/modules.cgz
+* inserted /tmp/vgastate.ko
+* inserted /tmp/vga16fb.ko
+* load module set done
+* 126072 kB are available
+* modules to insert cramfs fat vfat sunrpc lockd nfs loop isofs floppy edd
+* loaded cramfs from /modules/modules.cgz
+* loaded fat from /modules/modules.cgz
+* loaded vfat from /modules/modules.cgz
+* loaded sunrpc from /modules/modules.cgz
+* loaded lockd from /modules/modules.cgz
+* loaded nfs from /modules/modules.cgz
+* loaded loop from /modules/modules.cgz
+* loaded floppy from /modules/modules.cgz
+* loaded edd from /modules/modules.cgz
+* module(s) isofs not found
+* inserted /tmp/cramfs.ko
+* inserted /tmp/fat.ko
+* inserted /tmp/vfat.ko
+* inserted /tmp/sunrpc.ko
+* inserted /tmp/lockd.ko
+* inserted /tmp/nfs.ko
+* inserted /tmp/loop.ko
+* inserted /tmp/floppy.ko
+* inserted /tmp/edd.ko
+* load module set done
+* modules to insert cdrom ide-cd
+* module(s) cdrom ide-cd not found
+* load module set done
+* modules to insert scsi_mod sd_mod sr_mod
+* loaded scsi_mod from /modules/modules.cgz
+* loaded sd_mod from /modules/modules.cgz
+* loaded sr_mod from /modules/modules.cgz
+* inserted /tmp/scsi_mod.ko
+* inserted /tmp/sd_mod.ko
+* inserted /tmp/sr_mod.ko
+* load module set done
+* looking for usb controllers
+* found USB controller ehci-hcd
+* modules to insert ehci-hcd
+* loaded ehci-hcd from /modules/modules.cgz
+* inserted /tmp/ehci-hcd.ko
+* load module set done
+* found USB controller uhci-hcd
+* modules to insert uhci-hcd
+* loaded uhci-hcd from /modules/modules.cgz
+* inserted /tmp/uhci-hcd.ko
+* load module set done
+* waiting for usb to become stable...
+* 2 seconds.
+* modules to insert hid keybdev 
+* module(s) hid keybdev  not found
+* load module set done
+* no firewire controller found
+* no pcic controller found
+* probing buses
+* finished bus probing
+* modules to insert mii pcnet32 mptbase mptscsih
+* loaded mii from /modules/modules.cgz
+* loaded pcnet32 from /modules/modules.cgz
+* loaded mptbase from /modules/modules.cgz
+* loaded mptscsih from /modules/modules.cgz
+* inserted /tmp/mii.ko
+* inserted /tmp/pcnet32.ko
+* inserted /tmp/mptbase.ko
+* inserted /tmp/mptscsih.ko
+* load module set done
+* trying to mount CD device hdc
+* mntloop loop0 on /mnt/runtime as /mnt/source/RedHat/base/stage2.img fd is 12
+* mntloop loop7 on /tmp/product-disk as /mnt/source/RedHat/base/product.img fd is 12
+* recursively copying /tmp/product-disk/lost+found
+* recursively copying /tmp/product-disk/installclasses
+* recursively copying /tmp/product-disk/pixmaps
+* umounting loopback /tmp/product-disk loop7
+* MD5SUM -> 8599e5904f63ded0aaa92e0a9990f902
+* skipsectors = 15
+* isostatus = 1
+* Loading SELinux policy from /mnt/runtime/etc/selinux/targeted/policy/policy.18
+* getting ready to spawn shell now
+* modules to insert cdrom ide-cd
+* module(s) cdrom ide-cd not found
+* load module set done
+* modules to insert
+* load module set done
+* probing buses
+* finished bus probing
+* modules to insert
+* load module set done
+* looking for video cards requiring agpgart module
+* no video cards found
+* modules to insert md raid0 raid1 xor raid5 raid6 msdos jbd ext3 reiserfs jfs xfs dm-mod dm-zero dm-mirror dm-snapshot
+* loaded raid0 from /mnt/runtime/modules/modules.cgz
+* loaded raid1 from /mnt/runtime/modules/modules.cgz
+* loaded xor from /mnt/runtime/modules/modules.cgz
+* loaded raid5 from /mnt/runtime/modules/modules.cgz
+* loaded raid6 from /mnt/runtime/modules/modules.cgz
+* loaded msdos from /mnt/runtime/modules/modules.cgz
+* loaded jbd from /mnt/runtime/modules/modules.cgz
+* loaded ext3 from /mnt/runtime/modules/modules.cgz
+* loaded dm-mod from /mnt/runtime/modules/modules.cgz
+* loaded dm-zero from /mnt/runtime/modules/modules.cgz
+* loaded dm-mirror from /mnt/runtime/modules/modules.cgz
+* loaded dm-snapshot from /mnt/runtime/modules/modules.cgz
+* module(s) md reiserfs jfs xfs not found
+* inserted /tmp/raid0.ko
+* inserted /tmp/raid1.ko
+* inserted /tmp/xor.ko
+* inserted /tmp/raid5.ko
+* inserted /tmp/raid6.ko
+* inserted /tmp/msdos.ko
+* inserted /tmp/jbd.ko
+* inserted /tmp/ext3.ko
+* inserted /tmp/dm-mod.ko
+* inserted /tmp/dm-zero.ko
+* inserted /tmp/dm-mirror.ko
+* inserted /tmp/dm-snapshot.ko
+* load module set done
+* loading parallel port drivers...
+* modules to insert parport parport_pc
+* loaded parport from /mnt/runtime/modules/modules.cgz
+* loaded parport_pc from /mnt/runtime/modules/modules.cgz
+* inserted /tmp/parport.ko
+* inserted /tmp/parport_pc.ko
+* load module set done
+* looking for USB mouse...
+* Running anaconda script /usr/bin/anaconda
+* Display mode = g
+* Method = cdrom://hdc:/mnt/source
+* Red Hat Enterprise Linux ES is only installclass, using it
+* Started mini-wm
+* anaconda floppy device fd0
+* Detected 128M of memory
+* Swap attempt of 128M to 256M
+* running ['/usr/X11R6/bin/setxkbmap', '-layout', 'us', '-model', 'pc105', '-option', '']
+* moving (1) to step welcome
+* moving (1) to step language
+* moving (1) to step keyboard
+* running ['/usr/X11R6/bin/setxkbmap', '-layout', 'us', '-model', 'pc105', '-option', '']
+* moving (1) to step findrootparts
+* moving (1) to step partitionmethod
+* moving (1) to step partitionobjinit
+* moving (1) to step partitionmethodsetup
+* moving (1) to step partition
+* moving (1) to step partitiondone
+* moving (1) to step bootloadersetup
+* moving (1) to step bootloader
+* moving (1) to step networkdevicecheck
+* moving (1) to step network
+* moving (1) to step firewall
+* moving (1) to step languagesupport
+* moving (1) to step timezone
+* moving (1) to step accounts
+* moving (1) to step readcomps
+* Using file:///mnt/source/RedHat/base/comps.xml
+* base references package openCryptoki which doesn't exist
+* base references package prctl which doesn't exist
+* legacy-software-development references package compat-libgcc-295 which doesn't exist
+* legacy-software-development references package compat-libstdc++-295 which doesn't exist
+* compat-arch-support references package compat-libstdc++-295 which doesn't exist
+* compat-arch-support references package compat-libgcc-295 which doesn't exist
+* compat-arch-support references package openCryptoki which doesn't exist
+* core references package yaboot which doesn't exist
+* core references package iprutils which doesn't exist
+* core references package elilo which doesn't exist
+* core references package s390utils which doesn't exist
+* core references package ppc64-utils which doesn't exist
+* compat-arch-development references package compat-libgcc-295 which doesn't exist
+* development-tools references package gcc-ppc32 which doesn't exist
+* development-tools references package pfmon which doesn't exist
+* development-tools references package gcc-c++-ppc32 which doesn't exist
+* moving (1) to step desktopchoice
+* moving (1) to step selectlangpackages
+* moving (1) to step package-selection
+* moving (1) to step handleX11pkgs
+* moving (1) to step checkdeps
+* moving (1) to step confirminstall
+* discNums is [1]
+* don't have 2
+* moving (1) to step install
+* moving (1) to step enablefilesystems
+* formatting swap as swap
+* formatting / as ext3
+* formatting /boot as ext3
+* trying to mount sda2 on /
+* isys.py:mount()- going to mount /tmp/sda2 on /mnt/sysimage
+* trying to mount sda1 on /boot
+* isys.py:mount()- going to mount /tmp/sda1 on /mnt/sysimage/boot
+* trying to mount none on /proc
+* isys.py:mount()- going to mount none on /mnt/sysimage/proc
+* trying to mount none on /sys
+* isys.py:mount()- going to mount none on /mnt/sysimage/sys
+* moving (1) to step migratefilesystems
+* moving (1) to step setuptime
+* moving (1) to step preinstallconfig
+* No pcic controller detected
+* Needed e2fsprogs for /
+* Needed e2fsprogs for /boot
+* isys.py:mount()- going to mount /selinux on /mnt/sysimage/selinux
+* no dev package, going to bind mount /dev
+* isys.py:mount()- going to mount /dev on /mnt/sysimage/dev
+* moving (1) to step installpackages
+* setting file_context_path to /etc/selinux/targeted/contexts/files/file_contexts
+* switching from iso [1] to 2 for hwdata-0.146.1.EL-1.noarch
+* isys.py:mount()- going to mount /tmp/hdc on /mnt/source
+* isys.py:mount()- going to mount /tmp/hdc on /mnt/source
+* Initial install time estimate = 21.5189651229
+* switching from iso [2] to 3 for gimp-2.0.5-5.i386
+* isys.py:mount()- going to mount /tmp/hdc on /mnt/source
+* isys.py:mount()- going to mount /tmp/hdc on /mnt/source
+* switching from iso [3] to 4 for rusers-0.17-41.i386
+* isys.py:mount()- going to mount /tmp/hdc on /mnt/source
+* isys.py:mount()- going to mount /tmp/hdc on /mnt/source
+* switching from iso [4] to 1 for redhat-release-4ES-2.i386
+* isys.py:mount()- going to mount /tmp/hdc on /mnt/source
+* isys.py:mount()- going to mount /tmp/hdc on /mnt/source
+* Actual install time = 72.4655207515
+* failed to unlink /var/lib/rpm/__db.001: [Errno 2] No such file or directory: '/mnt/sysimage/var/lib/rpm/__db.001'
+* failed to unlink /var/lib/rpm/__db.002: [Errno 2] No such file or directory: '/mnt/sysimage/var/lib/rpm/__db.002'
+* failed to unlink /var/lib/rpm/__db.003: [Errno 2] No such file or directory: '/mnt/sysimage/var/lib/rpm/__db.003'
+* moving (1) to step postinstallconfig
+* No pcic controller detected
+* self.hostname = nettech
+* isys.py:mount()- going to mount /usbfs on /mnt/sysimage/proc/bus/usb
+* isys.py:mount()- going to mount /usbfs on /proc/bus/usb
+* rhgb installed, adding to boot loader config
+* found the comps package
+* moving (1) to step writeconfig
+* Writing main configuration
+* moving (1) to step firstboot
+* moving (1) to step instbootloader
+* GRUB command root (hd0,0)
+install /grub/stage1 d (hd0) /grub/stage2 p (hd0,0)/grub/grub.conf
+* moving (1) to step writexconfig
+* Writing X configuration
+* moving (1) to step writeksconfig
+* Writing autokickstart file
+* moving (1) to step setfilecon
+* setting SELinux contexts for anaconda created files
+* set fc of /etc/rpm/platform to system_u:object_r:etc_t
+* /etc/rpm/macros doesn't exist
+* /etc/lilo.conf doesn't exist
+* set fc of /etc/lilo.conf.anaconda to system_u:object_r:etc_t
+* set fc of /etc/mtab to system_u:object_r:etc_runtime_t
+* set fc of /etc/fstab to system_u:object_r:etc_t
+* set fc of /etc/resolv.conf to system_u:object_r:net_conf_t
+* set fc of /etc/modprobe.conf to system_u:object_r:modules_conf_t
+* set fc of /etc/modprobe.conf~ to system_u:object_r:modules_conf_t
+* set fc of /var/log/wtmp to system_u:object_r:wtmp_t
+* set fc of /var/run/utmp to system_u:object_r:initrc_var_run_t
+* set fc of /dev/log to system_u:object_r:devlog_t
+* set fc of /var/lib/rpm to system_u:object_r:rpm_var_lib_t
+* set fc of / to system_u:object_r:root_t
+* /etc/raidtab doesn't exist
+* /etc/mdadm.conf doesn't exist
+* set fc of /var/lib/rpm/Packages to system_u:object_r:rpm_var_lib_t
+* set fc of /var/lib/rpm/Sha1header to system_u:object_r:rpm_var_lib_t
+* set fc of /var/lib/rpm/Filemd5s to system_u:object_r:rpm_var_lib_t
+* set fc of /var/lib/rpm/Name to system_u:object_r:rpm_var_lib_t
+* set fc of /var/lib/rpm/Requirename to system_u:object_r:rpm_var_lib_t
+* set fc of /var/lib/rpm/__db.001 to system_u:object_r:rpm_var_lib_t
+* set fc of /var/lib/rpm/Installtid to system_u:object_r:rpm_var_lib_t
+* set fc of /var/lib/rpm/Group to system_u:object_r:rpm_var_lib_t
+* set fc of /var/lib/rpm/Dirnames to system_u:object_r:rpm_var_lib_t
+* set fc of /var/lib/rpm/Triggername to system_u:object_r:rpm_var_lib_t
+* set fc of /var/lib/rpm/Conflictname to system_u:object_r:rpm_var_lib_t
+* set fc of /var/lib/rpm/Basenames to system_u:object_r:rpm_var_lib_t
+* set fc of /var/lib/rpm/Sigmd5 to system_u:object_r:rpm_var_lib_t
+* set fc of /var/lib/rpm/__db.002 to system_u:object_r:rpm_var_lib_t
+* set fc of /var/lib/rpm/Provideversion to system_u:object_r:rpm_var_lib_t
+* set fc of /var/lib/rpm/Pubkeys to system_u:object_r:rpm_var_lib_t
+* set fc of /var/lib/rpm/__db.003 to system_u:object_r:rpm_var_lib_t
+* set fc of /var/lib/rpm/Requireversion to system_u:object_r:rpm_var_lib_t
+* set fc of /var/lib/rpm/Providename to system_u:object_r:rpm_var_lib_t
+* set fc of /var/lib/rpm to system_u:object_r:rpm_var_lib_t
+* set fc of /etc/lvm/lvm.conf to system_u:object_r:etc_t
+* set fc of /etc/lvm to system_u:object_r:etc_t
+* set fc of /dev/mapper/control to system_u:object_r:device_t
+* set fc of /dev/mapper to system_u:object_r:device_t
+* moving (1) to step copylogs
+* Copying anaconda logs

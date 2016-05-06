@@ -1,0 +1,1 @@
+ls  /var/log/  > a.txt

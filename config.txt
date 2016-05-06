@@ -1,0 +1,5 @@
+How to Use
+1.put this directory under linux file system anywhere like /.
+2.edit sudoer file and give permission to apache user with NOPASSWD for all programs.
+3.create a virtual host for the linux server address and give document root of this folder,
+4.now go to chrome under windows and enjoy it...:)
